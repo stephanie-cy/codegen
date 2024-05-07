@@ -9,9 +9,6 @@ metadata:
 spec:
   port:
     targetPort: 8501
-  tls:
-    insecureEdgeTerminationPolicy: Redirect
-    termination: edge
   to:
     kind: Service
     name: llamacpp-svc
