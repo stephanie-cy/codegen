@@ -11,7 +11,7 @@ spec:
     targetPort: 8501
   to:
     kind: Service
-    name: llamacpp-svc
+    name: codegen
     weight: 100 
   wildcardPolicy: None
 
